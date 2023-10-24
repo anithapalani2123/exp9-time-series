@@ -16,7 +16,7 @@ Implementation of Polynomial Trend Estiamtion Using Python.
 
 ## PROGRAM:
 ### A - LINEAR TREND ESTIMATION
-python
+```python
 def calculateB(x, y, n):
  
  # sum of array x 
@@ -55,7 +55,7 @@ a,b=leastRegLine(X, Y, n)
 for i in range(len(X)):
   Y[i]=a+b*X[i]
   print("%.3f"%Y[i])
-
+```
 
 ### B - POLYNOMIAL REGRESSION
 ```python
